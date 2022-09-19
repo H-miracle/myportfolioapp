@@ -59,14 +59,21 @@ header {
 
 /* =============MEDIA QUERIES (medium devices) ========== */
 @media screen and (max-width:1024px) {
-   .header {
+   #header {
       height: 68vh;
+   }
+   .header__socials {
+      bottom: 6rem
+   }
+   .scroll__down {
+      bottom: 10rem;
+      
    }
 }
 
 /* ============MEDIA QUERIES (small devices) ============ */
-@media screen and (max-width:1024px) {
-   .header {
+@media screen and (max-width:600px) {
+   #header {
       height: 100vh;
    }
    .header__socials, .scroll__down {
